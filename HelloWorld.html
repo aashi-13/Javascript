@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Embedded in HTML</title>
+</head>
+<body>
+    <!--HTML h1 Tag-->
+    <h1>Java Script Introduction</h1>
+    <script lang="javascript">
+        document.writeln("Hello World from Java Script");
+        document.writeln("<h1>Hello World from Java Script");
+            /*Java Script code to add 2 nos */
+            var a,b,sum;
+
+            name=prompt("Enter your Name :");
+
+            a=parseInt(prompt("Enter first Number:", "Enter a number"));
+            console.log(a);
+            b=parseInt(prompt("Enter second Number:", "Enter a number"));
+            console.log(b);
+
+            sum= a+b;
+            console.log(sum);
+            console.log(name);
+            document.write("<br>"+"Hello" +name+ "<br>");
+            document.writeln("The Addition of 2 nos is :"+sum);
+
+            alert("Thank you"+name);
+            alert(100+200);
+    </script>
+</body>
+</html>
